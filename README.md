@@ -6,7 +6,7 @@
 
 > A very minimalistic article-blog that allows a user to post articles.
 
-## What I created
+## What was created
 
 > Artikul is an article-blog. This project was created for the purpose of hosting articles that I have to write for a bootcamp. It includes a back-end interface for me to add articles, create articles, post articles.
 
