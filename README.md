@@ -1,24 +1,48 @@
-# README
+![Artikul main picture](https://github.com/Kyrule/blob/master/page-turner.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Artikul
 
-Things you may want to cover:
+## Goal
 
-* Ruby version
+A very minimalistic article-blog that allows a user to post articles.
 
-* System dependencies
+## What I created
 
-* Configuration
+Artikul is an article-blog. This project was created for the purpose of hosting articles that I have to write for a bootcamp. It includes a back-end interface for me to add articles, create articles, post articles.
 
-* Database creation
+## Ruby version
 
-* Database initialization
+ruby 2.6.5p114 (2019-10-01 revision 67812)
 
-* How to run the test suite
+## Rails version
 
-* Services (job queues, cache servers, search engines, etc.)
+Rails 5.2.3
 
-* Deployment instructions
+## Database initialization
 
-* ...
+rake db:migrate
+
+## Heroku deployment instructions
+
+git push heroku master
+
+## Reflections
+
+- Post Model, Controller
+- It creates and show articles
+- Has an about me.
+- Displays articles in descending sequence
+- Add custom fonts
+- Navigation, styling and application structure
+- Has validation for articles, set post parameters
+- CRUD - create, read, update, delete articles
+- Comments to articles
+- Articles and comments dependencies
+- Static about page
+- Add users
+- Prevent Sign up
+- User role restrictions, guest, logged in.
+
+> This is how it looks like, check it out live at [artikul.herokuapp.com](https://artikul.herokuapp.com/)
+
+![End Banner](https://github.com/Kyrule/blob/master/person-reading.png)
