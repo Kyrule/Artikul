@@ -43,6 +43,6 @@ git push heroku master
 - Prevent Sign up
 - User role restrictions, guest, logged in.
 
-> This is how it looks like, check it out live at [artikul.herokuapp.com](https://artikul.herokuapp.com/)
+> Check it out live at [artikul.herokuapp.com](https://artikul.herokuapp.com/)
 
 ![End Banner](https://github.com/Kyrule/Artikul/blob/master/person-reading.jpg)
