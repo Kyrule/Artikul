@@ -45,4 +45,4 @@ git push heroku master
 
 > This is how it looks like, check it out live at [artikul.herokuapp.com](https://artikul.herokuapp.com/)
 
-![End Banner](https://github.com/Kyrule/blob/master/person-reading.png)
+![End Banner](https://github.com/Kyrule/Artikul/blob/master/person-reading.jpg)
