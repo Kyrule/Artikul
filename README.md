@@ -45,4 +45,8 @@ git push heroku master
 
 > Check it out live at [artikul.herokuapp.com](https://artikul.herokuapp.com/)
 
+## By
+
+> [Kyrule](mailto:khairulkulma@gmail.com)
+
 ![End Banner](https://github.com/Kyrule/Artikul/blob/master/person-reading.jpg)
