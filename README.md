@@ -12,19 +12,19 @@ Artikul is an article-blog. This project was created for the purpose of hosting 
 
 ## Ruby version
 
-ruby 2.6.5p114 (2019-10-01 revision 67812)
+> ruby 2.6.5p114 (2019-10-01 revision 67812)
 
 ## Rails version
 
-Rails 5.2.3
+> Rails 5.2.3
 
 ## Database initialization
 
-rake db:migrate
+> rake db:migrate
 
 ## Heroku deployment instructions
 
-git push heroku master
+> git push heroku master
 
 ## Reflections
 
