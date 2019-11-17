@@ -6,7 +6,7 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag 'application', 'https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap' %>
+    <%= stylesheet_link_tag 'application', 'https://fonts.googleapis.com/css?family=Raleway:400&display=swap' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= favicon_link_tag 'favicon.ico.png' %>
   </head>
@@ -17,10 +17,10 @@
       <li class="category"><%= link_to "Flog", root_path %><sup style="font-size:1rem;">GER</sup></li>
       <li><%= link_to "Posts", root_path %></li>
       <li><%= link_to "About", about_path %></li>
+      <% if !user_signed_in? %>
+        <li class="sign_in"><%= link_to "User Login", new_user_session_path %></li>
+      <% end %>
     </ul>
-    <% if !user_signed_in? %>
-      <p class="sign_in"><%= link_to "User Login", new_user_session_path %></p>
-    <% end %>
   </div>
 
   <div id="main_content">  
