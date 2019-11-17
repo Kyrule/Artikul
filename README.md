@@ -1,4 +1,4 @@
-![Artikul main picture](https://github.com/Kyrule/blob/master/page-turner.png)
+![Artikul main picture](https://github.com/Kyrule/Artikul/blob/master/page-turner.jpg)
 
 # Artikul
 
